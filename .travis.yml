@@ -1,0 +1,18 @@
+language: java
+script:
+- ./gradlew -i check
+- ./gradlew jar
+- ./gradlew javadoc
+
+before_install:
+  - mysql -e "create database IF NOT EXISTS monopoly;" -uroot
+
+before_script:
+- ./gradlew createDatabase
+
+jdk:
+- oraclejdk7
+- openjdk7
+ 
+services:
+- mysql

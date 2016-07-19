@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2015-10-28" view-index="0" gantt-divider-location="334" resource-divider-location="300" version="2.7.1" locale="en_GB">
+    <description/>
+    <view zooming-state="default:3" id="gantt-chart">
+        <field id="tpd3" name="Name" width="56" order="0"/>
+        <field id="tpd4" name="Begin date" width="18" order="1"/>
+        <field id="tpd5" name="End date" width="25" order="2"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="50" order="0"/>
+        <field id="1" name="Default role" width="50" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Task 0" meeting="false" start="2015-11-03" duration="1" complete="100" expand="true">
+            <depend id="90" type="2" difference="0" hardness="Strong"/>
+            <task id="4" name="Create Worksheet 2 Folder in Repository" color="#8cb6ce" meeting="false" start="2015-11-03" duration="1" complete="100" expand="true"/>
+            <task id="5" name="Create Docs Folder in repository" color="#8cb6ce" meeting="false" start="2015-11-03" duration="1" complete="100" expand="true"/>
+        </task>
+        <task id="1" name="Task 1" meeting="false" start="2015-11-03" duration="3" complete="100" expand="true">
+            <depend id="90" type="2" difference="0" hardness="Strong"/>
+            <task id="8" name="Plan the tasks" color="#8cb6ce" meeting="false" start="2015-11-03" duration="1" complete="100" expand="true">
+                <depend id="6" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="6" name="Assign Tasks" color="#8cb6ce" meeting="false" start="2015-11-04" duration="1" complete="100" expand="true">
+                <depend id="7" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="7" name="Create Gantt Chart" color="#8cb6ce" meeting="false" start="2015-11-05" duration="1" complete="100" expand="true"/>
+        </task>
+        <task id="2" name="Task 2" meeting="false" start="2015-11-03" duration="3" complete="100" expand="true">
+            <depend id="90" type="2" difference="0" hardness="Strong"/>
+            <task id="10" name="Brainstorm Requirements1" color="#8cb6ce" meeting="false" start="2015-11-03" duration="1" complete="100" expand="true">
+                <depend id="11" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="11" name="Create Requirements Document" color="#8cb6ce" meeting="false" start="2015-11-04" duration="1" complete="100" expand="true">
+                <depend id="12" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="12" name="Format Requirements into Markdown" color="#8cb6ce" meeting="false" start="2015-11-05" duration="1" complete="100" expand="true"/>
+        </task>
+        <task id="3" name="Task 3" meeting="false" start="2015-11-03" duration="6" complete="100" expand="true">
+            <depend id="22" type="2" difference="0" hardness="Strong"/>
+            <depend id="90" type="2" difference="0" hardness="Strong"/>
+            <task id="14" name="Decide on the Classes for the system" color="#8cb6ce" meeting="false" start="2015-11-03" duration="1" complete="100" expand="true">
+                <depend id="19" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="19" name="Decide on the relationships for the classes" color="#8cb6ce" meeting="false" start="2015-11-04" duration="1" complete="100" expand="true">
+                <depend id="20" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="20" name="Create the class diagram" color="#8cb6ce" meeting="false" start="2015-11-05" duration="4" complete="100" expand="true"/>
+        </task>
+        <task id="15" name="Task 4" meeting="false" start="2015-11-03" duration="1" complete="100" expand="true">
+            <depend id="90" type="2" difference="0" hardness="Strong"/>
+            <task id="16" name="Decide Configuration management plan" color="#8cb6ce" meeting="false" start="2015-11-03" duration="1" complete="100" expand="true"/>
+            <task id="17" name="Create configuration management document" color="#8cb6ce" meeting="false" start="2015-11-03" duration="1" complete="100" expand="true"/>
+        </task>
+        <task id="18" name="Task 5" meeting="false" start="2015-11-03" duration="24" complete="96" expand="true">
+            <depend id="90" type="2" difference="0" hardness="Strong"/>
+            <task id="21" name="Create and setup new gradle project" color="#8cb6ce" meeting="false" start="2015-11-03" duration="1" complete="100" expand="true"/>
+            <task id="22" name="Create java classes" color="#8cb6ce" meeting="false" start="2015-11-11" duration="18" complete="99" expand="true">
+                <task id="91" name="Board Class" color="#8cb6ce" meeting="false" start="2015-11-11" duration="18" complete="100" expand="true"/>
+                <task id="92" name="Properties" color="#8cb6ce" meeting="false" start="2015-11-11" duration="18" complete="100" expand="true"/>
+                <task id="93" name="Chance" color="#8cb6ce" meeting="false" start="2015-11-11" duration="18" complete="100" expand="true"/>
+                <task id="95" name="Square" color="#8cb6ce" meeting="false" start="2015-11-11" duration="18" complete="100" expand="true"/>
+                <task id="96" name="RailRoad" color="#8cb6ce" meeting="false" start="2015-11-11" duration="18" complete="100" expand="true"/>
+                <task id="98" name="BuyableSquare" color="#8cb6ce" meeting="false" start="2015-11-11" duration="18" complete="100" expand="true"/>
+                <task id="99" name="Utility" color="#8cb6ce" meeting="false" start="2015-11-11" duration="18" complete="100" expand="true"/>
+                <task id="118" name="Game" color="#8cb6ce" meeting="false" start="2015-11-24" duration="9" complete="100" expand="true"/>
+                <task id="97" name="Player" color="#8cb6ce" meeting="false" start="2015-11-11" duration="18" complete="100" expand="true"/>
+                <task id="94" name="Community Chest" color="#8cb6ce" meeting="false" start="2015-11-11" duration="18" complete="100" expand="true"/>
+            </task>
+            <task id="23" name="Add Save/Load" color="#8cb6ce" meeting="false" start="2015-12-04" duration="1" complete="0" expand="true">
+                <task id="131" name="DAO" color="#8cb6ce" meeting="false" start="2015-12-04" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="25" name="Gherkin Code Written" color="#8cb6ce" meeting="false" start="2015-11-11" duration="9" complete="100" expand="true">
+                <depend id="26" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="26" name="Create tests off of gherkin" color="#8cb6ce" meeting="false" start="2015-11-24" duration="8" complete="100" thirdDate="2015-11-27" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="90" name="Project complete" color="#8cb6ce" meeting="true" start="2015-12-07" duration="0" complete="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Ahtif Anwar" function="Default:0" contacts="" phone=""/>
+        <resource id="1" name="Gregory Allen " function="Default:0" contacts="" phone=""/>
+        <resource id="2" name="Joel Benner " function="Default:0" contacts="" phone=""/>
+        <resource id="3" name="Michael W. Chiu " function="Default:0" contacts="" phone=""/>
+        <resource id="4" name="Nikhail A. Fernandes" function="Default:0" contacts="" phone=""/>
+        <resource id="5" name="Ritesh Patel " function="Default:0" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="8" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="6" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="14" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="16" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="22" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="20" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="8" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="6" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="14" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="16" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="25" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="26" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="4" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="5" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="8" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="6" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="11" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="12" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="14" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="16" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="17" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="25" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="26" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="20" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="8" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="6" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="14" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="16" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="22" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="20" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="8" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="6" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="14" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="16" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="22" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="8" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="6" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="14" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="16" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="25" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="26" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="20" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <taskdisplaycolumns>
+        <displaycolumn property-id="tpd2" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd6" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd3" order="0" width="185" visible="true"/>
+        <displaycolumn property-id="tpd4" order="1" width="61" visible="true"/>
+        <displaycolumn property-id="tpd7" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd8" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd12" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd5" order="2" width="84" visible="true"/>
+        <displaycolumn property-id="tpd10" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd11" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd9" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd1" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd13" order="-1" width="75" visible="false"/>
+        <displaycolumn property-id="tpd0" order="-1" width="75" visible="false"/>
+    </taskdisplaycolumns>
+    <previous>
+        <previous-tasks name="Initial Gantt Chart">
+            <previous-task id="0" start="2015-11-03" duration="1" meeting="false" super="true"/>
+            <previous-task id="4" start="2015-11-03" duration="1" meeting="false" super="false"/>
+            <previous-task id="5" start="2015-11-03" duration="1" meeting="false" super="false"/>
+            <previous-task id="1" start="2015-11-03" duration="3" meeting="false" super="true"/>
+            <previous-task id="8" start="2015-11-03" duration="1" meeting="false" super="false"/>
+            <previous-task id="6" start="2015-11-04" duration="1" meeting="false" super="false"/>
+            <previous-task id="7" start="2015-11-05" duration="1" meeting="false" super="false"/>
+            <previous-task id="2" start="2015-11-03" duration="3" meeting="false" super="true"/>
+            <previous-task id="10" start="2015-11-03" duration="1" meeting="false" super="false"/>
+            <previous-task id="11" start="2015-11-04" duration="1" meeting="false" super="false"/>
+            <previous-task id="12" start="2015-11-05" duration="1" meeting="false" super="false"/>
+            <previous-task id="3" start="2015-11-03" duration="6" meeting="false" super="true"/>
+            <previous-task id="14" start="2015-11-03" duration="1" meeting="false" super="false"/>
+            <previous-task id="19" start="2015-11-04" duration="1" meeting="false" super="false"/>
+            <previous-task id="20" start="2015-11-05" duration="4" meeting="false" super="false"/>
+            <previous-task id="15" start="2015-11-03" duration="1" meeting="false" super="true"/>
+            <previous-task id="16" start="2015-11-03" duration="1" meeting="false" super="false"/>
+            <previous-task id="17" start="2015-11-03" duration="1" meeting="false" super="false"/>
+            <previous-task id="18" start="2015-11-03" duration="27" meeting="false" super="true"/>
+            <previous-task id="21" start="2015-11-03" duration="1" meeting="false" super="false"/>
+            <previous-task id="22" start="2015-11-11" duration="10" meeting="false" super="false"/>
+            <previous-task id="23" start="2015-11-25" duration="1" meeting="false" super="false"/>
+            <previous-task id="25" start="2015-11-25" duration="1" meeting="false" super="false"/>
+            <previous-task id="26" start="2015-11-26" duration="10" meeting="false" super="false"/>
+            <previous-task id="90" start="2015-12-10" duration="0" meeting="true" super="false"/>
+        </previous-tasks>
+        <previous-tasks name="Meeting on the 24th">
+            <previous-task id="0" start="2015-11-03" duration="1" meeting="false" super="true"/>
+            <previous-task id="4" start="2015-11-03" duration="1" meeting="false" super="false"/>
+            <previous-task id="5" start="2015-11-03" duration="1" meeting="false" super="false"/>
+            <previous-task id="1" start="2015-11-03" duration="3" meeting="false" super="true"/>
+            <previous-task id="8" start="2015-11-03" duration="1" meeting="false" super="false"/>
+            <previous-task id="6" start="2015-11-04" duration="1" meeting="false" super="false"/>
+            <previous-task id="7" start="2015-11-05" duration="1" meeting="false" super="false"/>
+            <previous-task id="2" start="2015-11-03" duration="3" meeting="false" super="true"/>
+            <previous-task id="10" start="2015-11-03" duration="1" meeting="false" super="false"/>
+            <previous-task id="11" start="2015-11-04" duration="1" meeting="false" super="false"/>
+            <previous-task id="12" start="2015-11-05" duration="1" meeting="false" super="false"/>
+            <previous-task id="3" start="2015-11-03" duration="6" meeting="false" super="true"/>
+            <previous-task id="14" start="2015-11-03" duration="1" meeting="false" super="false"/>
+            <previous-task id="19" start="2015-11-04" duration="1" meeting="false" super="false"/>
+            <previous-task id="20" start="2015-11-05" duration="4" meeting="false" super="false"/>
+            <previous-task id="15" start="2015-11-03" duration="1" meeting="false" super="true"/>
+            <previous-task id="16" start="2015-11-03" duration="1" meeting="false" super="false"/>
+            <previous-task id="17" start="2015-11-03" duration="1" meeting="false" super="false"/>
+            <previous-task id="18" start="2015-11-03" duration="24" meeting="false" super="true"/>
+            <previous-task id="21" start="2015-11-03" duration="1" meeting="false" super="false"/>
+            <previous-task id="22" start="2015-11-11" duration="18" meeting="false" super="true"/>
+            <previous-task id="91" start="2015-11-11" duration="18" meeting="false" super="false"/>
+            <previous-task id="92" start="2015-11-11" duration="18" meeting="false" super="false"/>
+            <previous-task id="93" start="2015-11-11" duration="18" meeting="false" super="false"/>
+            <previous-task id="95" start="2015-11-11" duration="18" meeting="false" super="false"/>
+            <previous-task id="96" start="2015-11-11" duration="18" meeting="false" super="false"/>
+            <previous-task id="98" start="2015-11-11" duration="18" meeting="false" super="false"/>
+            <previous-task id="99" start="2015-11-11" duration="18" meeting="false" super="false"/>
+            <previous-task id="118" start="2015-11-24" duration="9" meeting="false" super="false"/>
+            <previous-task id="97" start="2015-11-11" duration="18" meeting="false" super="false"/>
+            <previous-task id="94" start="2015-11-11" duration="18" meeting="false" super="false"/>
+            <previous-task id="23" start="2015-11-11" duration="18" meeting="false" super="false"/>
+            <previous-task id="25" start="2015-11-24" duration="1" meeting="false" super="false"/>
+            <previous-task id="26" start="2015-11-25" duration="8" meeting="false" super="false"/>
+            <previous-task id="90" start="2015-12-07" duration="0" meeting="true" super="false"/>
+        </previous-tasks>
+        <previous-tasks name="Final meeting">
+            <previous-task id="0" start="2015-11-03" duration="1" meeting="false" super="true"/>
+            <previous-task id="4" start="2015-11-03" duration="1" meeting="false" super="false"/>
+            <previous-task id="5" start="2015-11-03" duration="1" meeting="false" super="false"/>
+            <previous-task id="1" start="2015-11-03" duration="3" meeting="false" super="true"/>
+            <previous-task id="8" start="2015-11-03" duration="1" meeting="false" super="false"/>
+            <previous-task id="6" start="2015-11-04" duration="1" meeting="false" super="false"/>
+            <previous-task id="7" start="2015-11-05" duration="1" meeting="false" super="false"/>
+            <previous-task id="2" start="2015-11-03" duration="3" meeting="false" super="true"/>
+            <previous-task id="10" start="2015-11-03" duration="1" meeting="false" super="false"/>
+            <previous-task id="11" start="2015-11-04" duration="1" meeting="false" super="false"/>
+            <previous-task id="12" start="2015-11-05" duration="1" meeting="false" super="false"/>
+            <previous-task id="3" start="2015-11-03" duration="6" meeting="false" super="true"/>
+            <previous-task id="14" start="2015-11-03" duration="1" meeting="false" super="false"/>
+            <previous-task id="19" start="2015-11-04" duration="1" meeting="false" super="false"/>
+            <previous-task id="20" start="2015-11-05" duration="4" meeting="false" super="false"/>
+            <previous-task id="15" start="2015-11-03" duration="1" meeting="false" super="true"/>
+            <previous-task id="16" start="2015-11-03" duration="1" meeting="false" super="false"/>
+            <previous-task id="17" start="2015-11-03" duration="1" meeting="false" super="false"/>
+            <previous-task id="18" start="2015-11-03" duration="24" meeting="false" super="true"/>
+            <previous-task id="21" start="2015-11-03" duration="1" meeting="false" super="false"/>
+            <previous-task id="22" start="2015-11-11" duration="18" meeting="false" super="true"/>
+            <previous-task id="91" start="2015-11-11" duration="18" meeting="false" super="false"/>
+            <previous-task id="92" start="2015-11-11" duration="18" meeting="false" super="false"/>
+            <previous-task id="93" start="2015-11-11" duration="18" meeting="false" super="false"/>
+            <previous-task id="95" start="2015-11-11" duration="18" meeting="false" super="false"/>
+            <previous-task id="96" start="2015-11-11" duration="18" meeting="false" super="false"/>
+            <previous-task id="98" start="2015-11-11" duration="18" meeting="false" super="false"/>
+            <previous-task id="99" start="2015-11-11" duration="18" meeting="false" super="false"/>
+            <previous-task id="118" start="2015-11-24" duration="9" meeting="false" super="false"/>
+            <previous-task id="97" start="2015-11-11" duration="18" meeting="false" super="false"/>
+            <previous-task id="94" start="2015-11-11" duration="18" meeting="false" super="false"/>
+            <previous-task id="23" start="2015-12-04" duration="1" meeting="false" super="true"/>
+            <previous-task id="131" start="2015-12-04" duration="1" meeting="false" super="false"/>
+            <previous-task id="25" start="2015-11-11" duration="9" meeting="false" super="false"/>
+            <previous-task id="26" start="2015-11-24" duration="8" meeting="false" super="false"/>
+            <previous-task id="90" start="2015-12-07" duration="0" meeting="true" super="false"/>
+        </previous-tasks>
+    </previous>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
